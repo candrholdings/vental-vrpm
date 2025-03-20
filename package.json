@@ -1,0 +1,41 @@
+{
+  "name": "vental-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rspack/cli": "^1.2.8",
+    "@rspack/core": "^1.2.8",
+    "@rspack/dev-server": "^1.1.0",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.4",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@hookform/resolvers": "^4.1.3",
+    "@mui/icons-material": "^5.4.8",
+    "@mui/material": "^5.4.8",
+    "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.483.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.54.2",
+    "react-router-dom": "^7.4.0",
+    "zod": "^3.24.2",
+    "zustand": "^5.0.3"
+  }
+}
